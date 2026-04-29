@@ -33,12 +33,14 @@ export default function ContactForm() {
           rows={4}
         ></textarea>
       </div>
-      <button
-        className="w-full bg-surface-container-highest border border-primary-container/50 text-primary-container py-4 rounded font-mono-label text-mono-label hover:bg-primary-container hover:text-on-primary-container hover:glow-cyan-strong transition-all duration-300"
-        type="button"
-      >
-        Send Message
-      </button>
+      <a href="mailto:marrhasiholan@gmail.com">
+        <button
+          className="w-full bg-surface-container-highest border border-primary-container/50 text-primary-container py-4 rounded font-mono-label text-mono-label hover:bg-primary-container hover:text-on-primary-container hover:glow-cyan-strong transition-all duration-300"
+          type="button"
+        >
+          Send Message
+        </button>
+      </a>
     </form>
   );
 }

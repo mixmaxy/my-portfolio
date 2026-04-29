@@ -5,8 +5,8 @@ export default function Project() {
   return (
     <>
       <section
-        className="max-w-container-max mx-auto px-margin-x mb-section-gap scroll-mt-24"
         id="project"
+        className="max-w-container-max mx-auto px-margin-x mb-section-gap scroll-mt-24"
       >
         <div className="mb-16">
           <h2 className="font-h2 text-h2 text-on-surface mb-4">

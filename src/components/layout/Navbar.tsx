@@ -28,9 +28,11 @@ export default function Navbar() {
             Contact
           </a>
         </div>
+        <a href="mailto:marrhasiholan@gmail.com">
         <button className="hidden md:flex bg-primary-container text-on-primary-container px-6 py-2 rounded font-mono-label text-mono-label glow-cyan-strong hover:bg-primary-fixed transition-colors">
           Hire Me
         </button>
+        </a>
 
         {/* Mobile Menu Icon (Visual only) */}
         <button className="md:hidden text-primary-container">

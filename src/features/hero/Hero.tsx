@@ -20,12 +20,16 @@ export default function Hero() {
             pixel-perfect execution.
           </p>
           <div className="flex items-center gap-6">
+            <a href="#contact">
             <button className="bg-primary-container text-on-primary-container px-8 py-4 rounded font-mono-label text-mono-label glow-cyan-strong hover:bg-primary-fixed transition-all hover:scale-105">
-              Initiate Sequence
+              Contact
             </button>
-            <button className="px-8 py-4 rounded border border-primary-container text-primary-container font-mono-label text-mono-label hover:glow-cyan transition-all hover:bg-primary-container/10">
-              View Source
-            </button>
+            </a>
+            <a href="#project">
+              <button className="px-8 py-4 rounded border border-primary-container text-primary-container font-mono-label text-mono-label hover:glow-cyan transition-all hover:bg-primary-container/10">
+                Projects
+              </button>
+            </a>
           </div>
         </div>
         {/* <!-- Abstract Hero Visual --> */}

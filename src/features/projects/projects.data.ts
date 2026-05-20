@@ -38,8 +38,8 @@ export const projectsData: ProjectProps[] = [
       "A modern web application built with Next.js that helps users classify and manage food items based on their nutritional characteristics.",
     imageUrl:
       "https://images.unsplash.com/photo-1601972602288-3be527b4f18a?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    imageAlt: "FLUID_COMMERCE Preview",
-    technologies: ["Next.js", "TypeScript", "Lucide-React"],
-    projectUrl: "",
+    imageAlt: "Food Vault Preview",
+    technologies: ["Next.js", "TypeScript", "Supabase"],
+    projectUrl: "https://food-vault-zeta.vercel.app/",
   },
 ];

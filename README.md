@@ -1,73 +1,89 @@
-# React + TypeScript + Vite
+# 🚀 Personal Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A sleek, modern, and highly responsive personal portfolio website built with the latest web technologies. This site showcases my developer journey, skills, and featured projects in a clean and visually engaging interface.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🛠️ Tech Stack & Tools
 
-## React Compiler
+- **Frontend Framework:** [React 19](https://react.dev/)
+- **Build Tool:** [Vite 8](https://vite.dev/)
+- **Programming Language:** [TypeScript](https://www.typescriptlang.org/)
+- **Styling:** [Tailwind CSS v4](https://tailwindcss.com/)
+- **Icons:** [Lucide React](https://lucide.dev/)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## ✨ Features
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- **Responsive Layout:** Designed to look beautiful on all devices (mobile, tablet, and desktop).
+- **Featured Projects:** Showcases web applications with links, visual previews, and detailed tech tags.
+- **Interactive Skills Section:** Displays technical expertise categorized for easy reading.
+- **Contact Form:** Integrated for direct messaging and connections.
+- **Fast Performance:** Optimized with Vite 8 for instant hot module reloading (HMR) and ultra-fast builds.
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+---
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+## 📁 Project Structure
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```text
+src/
+├── app/          # Core app component & setup
+├── components/   # Reusable UI components
+├── features/     # Core features of the portfolio
+│   ├── contact/  # Contact section & form
+│   ├── hero/     # Hero banner section
+│   ├── projects/ # Projects grid, card, & data
+│   └── skills/   # Technical skills showcase
+└── styles/       # Global CSS & Tailwind configuration
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+---
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## 💼 Featured Projects
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+Here are the projects featured in this portfolio:
+
+| Project Name | Description | Tech Stack | Link |
+| :--- | :--- | :--- | :--- |
+| **Food Vault** | A modern web application that helps users classify and manage food items based on nutritional characteristics. | Next.js, TypeScript, Supabase | [Live Demo](https://food-vault-zeta.vercel.app/) |
+| **Maxify** | A responsive landing page with a focus on loading speed and clean code architecture. | Tailwind, Next.js | [Live Demo](https://maxify-sand.vercel.app/) |
+| **RepoMe** | A React application connected to the Reqres public API for authentication, user listing, and detail views. | React, Vite, Tailwind | [Live Demo](https://min-pro-day28-mario.vercel.app/) |
+
+---
+
+## 🚀 Getting Started
+
+Follow these steps to set up and run the project locally:
+
+### 1. Clone the Repository
+```bash
+git clone <repository-url>
+cd my-portfolio
 ```
+
+### 2. Install Dependencies
+Make sure you have [Node.js](https://nodejs.org/) installed, then run:
+```bash
+npm install
+```
+
+### 3. Run Development Server
+Start the local server with hot reloading:
+```bash
+npm run dev
+```
+Open `http://localhost:5173` in your browser.
+
+### 4. Build for Production
+To compile and build the project for deployment:
+```bash
+npm run build
+```
+The output will be generated in the `dist/` directory.
+
+---
+
+## 📄 License
+
+This project is open-source and available under the [MIT License](LICENSE).

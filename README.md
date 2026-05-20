@@ -1,10 +1,10 @@
-# 🚀 Personal Portfolio
+# Personal Portfolio
 
 A sleek, modern, and highly responsive personal portfolio website built with the latest web technologies. This site showcases my developer journey, skills, and featured projects in a clean and visually engaging interface.
 
 ---
 
-## 🛠️ Tech Stack & Tools
+## Tech Stack & Tools
 
 - **Frontend Framework:** [React 19](https://react.dev/)
 - **Build Tool:** [Vite 8](https://vite.dev/)
@@ -14,7 +14,7 @@ A sleek, modern, and highly responsive personal portfolio website built with the
 
 ---
 
-## ✨ Features
+## Features
 
 - **Responsive Layout:** Designed to look beautiful on all devices (mobile, tablet, and desktop).
 - **Featured Projects:** Showcases web applications with links, visual previews, and detailed tech tags.
@@ -24,7 +24,7 @@ A sleek, modern, and highly responsive personal portfolio website built with the
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```text
 src/
@@ -40,7 +40,7 @@ src/
 
 ---
 
-## 💼 Featured Projects
+## Featured Projects
 
 Here are the projects featured in this portfolio:
 
